@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" form="myform" minlength="2" maxlength="10" pattern="[A-Za-z]+" required>
+    </p>
+    <form action="" method="post" id="myform">
+        <fieldset>
+            <legend>Form</legend>
+            <p>
+                <label for="username">Your username:</label>
+                <input type="text" id="username" name="username" required autocomplete="off" autofocus>
+            </p>
+            <p>
+                <label for="password">Your password:</label>
+                <input type="password" id="password" name="password" disabled>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" readonly value="example@mail.com">
+            </p>
+            <p>
+                <label for="website">Your website:</label>
+                <input type="url" name="website" id="website" placeholder="https://...">
+            </p>
+            <p>
+                <label for="phone">Your phone number:</label>
+                <input type="tel" name="phone" id="phone">
+            </p>
+            <p>
+                <label for="search">Search:</label>
+                <input type="search" name="search" id="search">
+            </p>
+            <p>
+                <label for="number">Number: </label>
+                <input type="number" name="number" id="number">
+            </p>
+            <p>
+                <label for="color">Color: </label>
+                <input type="color" name="color id="color">
+            </p>
+            <p>
+                <label for="file">File: </label>
+                <input type="file" name="file" id="file">
+            </p>
+            <p>
+                <label for="file">Files: </label>
+                <input type="file" name="file" id="file" multiple>
+            </p>
+            <p>
+                <input type="checkbox" name="checkbox1" id="checkbox1" value="checkbox1">
+                <label for="checkbox1">Text</label>
+            </p>
+            <p>
+                <input type="radio" name="answer" id="yes" value="yes">
+                <label for="yes">yes</label>
+            </p>
+            <p>
+                <input type="radio" name="answer" id="no" value="no" checked>
+                <label for="no">no</label>
+            </p>
+            <p>
+                <label for="range">Range: </label>
+                <input type="range" name="range" id="range" min="0" max="100" step="20">
+            </p>
+            <p>
+                <label for="textarea"></label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" spellcheck="true"></textarea>
+            </p>
+            <p>
+                <label for="programming-language">My first programming language: </label>
+                <select name="pl" id="pl">
+                    <optgroup label="language">
+                        <option value="javascript">javascript</option>
+                        <option value="php">php</option>
+                        <option value="python">python</option>
+                    </optgroup>
+                    <optgroup label="other">
+                        <option value="other" selected>other</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="programming-language">My programming languages: </label>
+                <select name="pl-multiply" id="pl-multiply" multiple size="3">
+                    <option value="javascript">javascript</option>
+                    <option value="php">php</option>
+                    <option value="python">python</option>
+                    <option value="other">other</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
