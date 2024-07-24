@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.box-1 {
+    background-image: linear-gradient(to top, indianred 10%, cornflowerblue 70% 100%);
+}
+
+.box-2 {
+    background-image: radial-gradient(indianred, cornflowerblue);
+}
+
+.box-3 {
+    background-image: conic-gradient(indianred, cornflowerblue);
+}
