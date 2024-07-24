@@ -1,0 +1,50 @@
+html {
+    width: 100%;
+    font-size: 14px;
+}
+
+body {
+    min-width: 100%;
+    margin: 0;
+}
+
+div {
+    color: rgb(40, 40, 40);
+    font-weight: 600;
+}
+
+.box-1{
+    width: 100px;
+    height: 50px;
+    background-color: hsl(0, 100%, 70%);
+}
+
+.box-2{
+    width: 33%;
+    height: 50%;
+    background-color: hsl(10, 100%, 70%);
+}
+
+.box-3{
+    width: 50vw;
+    height: 50px;
+    background-color: hsl(20, 100%, 70%);
+}
+
+.box-4{
+    width: 100px;
+    height: 30vh;
+    background-color: hsl(30, 100%, 70%);
+}
+
+.text-1 {
+    font-size: 32px;
+}
+
+.text-2 {
+    font-size: 0.5em;
+}
+
+.text-3 {
+    font-size: 2rem;
+}
