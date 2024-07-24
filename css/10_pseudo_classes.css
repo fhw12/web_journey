@@ -1,0 +1,69 @@
+p:nth-child(odd){
+    color: darkgreen;
+}
+
+p:nth-child(even){
+    color: darkred;
+}
+
+p:first-child {
+    color: tomato;
+}
+
+p:last-child {
+    color:blue;
+}
+
+p:nth-last-child(2) {
+    font-size: 2em;
+}
+
+p:nth-last-child(3n) {
+    background-color: burlywood;
+}
+
+p:nth-last-child(3n + 1) {
+    background-color: lightcoral;
+}
+
+p:nth-child(-n + 4) {
+    font-weight: 900;
+}
+
+span:only-child::before {
+    content: "HELLO";
+}
+
+.msg:not(.is-active){
+    display: none;
+}
+
+.button-1:hover {
+    background-color: red;
+}
+
+.button-2:focus {
+    background-color: aqua;
+}
+
+.button-3:focus-visible {
+    background-color: blueviolet;
+}
+
+.button-4:active {
+    background-color: indianred;
+}
+
+button:disabled {
+    background-color: black;
+}
+
+input:checked {
+    box-shadow: 2px 2px 0 0 darkred;
+}
+
+.user-select-none {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
