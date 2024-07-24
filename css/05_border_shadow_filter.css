@@ -1,0 +1,31 @@
+body {
+    padding-left: 30px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.box-1 {
+    border: 10px solid wheat;
+}
+
+.box-2 {
+    border-width: 2px 4px 8px 16px;
+    border-style: solid;
+    border-color: wheat;
+}
+
+.box-3 {
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+.box-4 {
+    background-color: lightpink;
+    box-shadow: -5px 10px 1px rgb(100, 100, 100);
+    filter: blur(1px);
+}
