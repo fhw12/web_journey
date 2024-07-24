@@ -1,0 +1,102 @@
+p{
+    color: rgb(200, 50, 50);
+}
+
+/* class */
+.post-author {
+    color: rgb(50, 50, 50);
+}
+
+/* id */
+#post-info {
+    color: rgb(100, 100, 100);
+}
+
+input {
+    border: 1px solid salmon;
+}
+
+[placeholder="comment"] {
+    border: 1px solid darkolivegreen;
+}
+
+/* select all elements that starts with https:// */
+[href^="https://"] {
+    color: blue;
+}
+
+/* select all elements that ends with / */
+[href$="/"] {
+    color: darkblue;
+}
+
+/* select all elements that inclides .com in link */
+[href*=".com"] {
+    color: lightblue;
+}
+
+/* select all elements that inclides word 'screenshot' */
+[alt~="screenshot"] {
+    color: lightgreen;
+}
+
+/* select all elements that starts with
+word 'cat' and then contain '-' char and can has text after '-' char
+or
+it is a just string 'cat' in alt attr */
+[alt|="cat"] {
+    color: lightseagreen;
+}
+
+/* 'i' to ignore case */
+[alt*="dog" i] {
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+
+/* select almost everything */
+* {
+    cursor: help;
+}
+
+/* section */
+section {
+    color: lightblue;
+}
+
+/* p in section */
+section p {
+    color: blue;
+}
+
+/* span in p in section */
+section p span {
+    color: darkblue;
+}
+
+/* group of elements */
+h1, h2 {
+    color: aqua;
+}
+
+/* select elements with unordered list of classes 'button' and 'red' */
+.button.red {
+    background-color:rgb(200, 50, 50);
+    cursor: pointer;
+}
+
+/* h2 in section and h2 is a child of section without any tags between section and h2  */
+section > h2 {
+    background-color: lightskyblue;
+    color: black;
+}
+
+/* select first p element after h2: <h2></h2> <p></p> */
+h2 + p {
+    border: 1px solid red;
+}
+
+/* select p elements after h3: <h3></h3> <p></p> <p></p> ... */
+h3 ~ p {
+    border: 1px solid red;
+}
