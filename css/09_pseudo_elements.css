@@ -1,0 +1,38 @@
+.textarea-1::placeholder {
+    color: red;
+    font-size: 1.2em;
+}
+
+.file-selector::file-selector-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgreen;
+    color: darkslategray;
+}
+
+.text-1::first-letter {
+    font-size: 2em;
+}
+
+.text-2::first-line {
+    font-size: 2em;
+}
+
+.text-2::selection {
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+.custom-marker::marker {
+    content: "+ ";
+    color: tomato;
+}
+
+.text-3::before {
+    content: "+";
+}
+
+.text-3::after {
+    content: "-";
+}
