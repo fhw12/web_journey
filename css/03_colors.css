@@ -1,0 +1,24 @@
+.red-color {
+    color: red;
+}
+
+.red-rgb-color {
+    color: rgb(250, 100, 100);
+}
+
+.red-hex-color {
+    color: #FF5555;
+}
+
+.red-hsl-color {
+    color: hsl(0, 100%, 50%);
+}
+
+.transparent {
+    color: transparent;
+}
+
+.current-color-border {
+    color: red;
+    border: 1px solid currentColor;
+}
