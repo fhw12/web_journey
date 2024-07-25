@@ -21,3 +21,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+.box-1:hover {
+    animation-play-state: paused;
+}
