@@ -1,0 +1,38 @@
+.box-1, .box-2 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+.box-1 {
+    overflow: scroll;
+}
+
+.box-2 {
+    overflow: auto;
+}
+
+.box-3 {
+    opacity: 0.5;
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+}
+
+.box-4 {
+    height: 100px;
+    visibility: hidden;
+}
+
+.image-1 {
+    clip-path: circle();
+}
+
+.image-2 {
+    clip-path: ellipse();
+}
+
+.image-3 {
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 0%);
+}
