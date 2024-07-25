@@ -1,0 +1,51 @@
+.box-1 {
+    transform: translateX(10px);
+    width: 100px;
+}
+
+.box-2 {
+    transform: translateY(-10px);
+}
+
+.box-3 {
+    transform: scaleX(0.5);
+}
+
+.box-4 {
+    transform: scaleX(-1);
+}
+
+.box-5 {
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+.box-6 {
+    transform: skewX(10deg);
+}
+
+.box-7 {
+    transform: skewY(10deg);
+    display: inline-block;
+}
+
+.box-8 {
+    display: inline-block;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+.box-8:hover {
+    transform: scale(2);
+}
+
+.box-9 {
+    transition-duration: 1s;
+    display: inline-block;
+}
+
+.box-9:hover {
+    transform: skewX(20deg);
+    background-color: whitesmoke;
+    padding: 20px;
+}
