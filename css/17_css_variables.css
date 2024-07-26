@@ -1,0 +1,30 @@
+:root {
+    --background-color: rgb(240, 240, 240);
+    --color: rgb(40, 40, 40);
+
+    --font-weight: 500;
+
+    --header-background-color: rgb(200, 200, 200);
+    --header-color: rgb(10, 10, 10);
+
+    --footer-background-color: rgb(30, 30, 30);
+    --footer-color: rgb(200, 200, 200);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+    font-weight: var(--font-weight);
+}
+
+header {
+    background-color: var(--header-background-color);
+    color: var(--header-color);
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-color);
+    padding: 10px;
+}
