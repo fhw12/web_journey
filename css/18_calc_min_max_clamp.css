@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    font-size: 0;
+}
+
+.box-1 {
+    width: calc(100% / 3);
+    height: 10px;
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.salmon-background-color {
+    background-color: salmon;
+}
+
+.box-2 {
+    background-color: coral;
+    width: min(200px, 100% / 3);
+    height: 50px;
+}
+
+.box-3 {
+    background-color: antiquewhite;
+    width: max(500px, 50%);
+    height: 50px;
+}
